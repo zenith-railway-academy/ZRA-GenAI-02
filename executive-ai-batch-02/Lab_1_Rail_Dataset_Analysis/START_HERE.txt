@@ -1,0 +1,36 @@
+START HERE — Lab 1: Rail Dataset Analysis
+=========================================
+
+WHAT YOU HAVE (this package)
+  Activity_Dossier_Lab1.pdf    <- read this first (your guide to the activity)
+  Student_Workbook_Lab1.docx   <- write your answers here as you work
+  notebook/lab1_rail_dataset_analysis.ipynb  <- the notebook you work in
+  notebook/sncf_tgv_regularity.csv           <- the real dataset (already provided)
+
+HOW TO START
+  Option A — JupyterLab (on your lab VM):
+     1. Open a terminal in the "notebook" folder and run:  jupyter lab
+     2. Open  lab1_rail_dataset_analysis.ipynb
+     3. Run the cells from the top, one at a time (Shift+Enter).
+
+  Option B — Google Colab:
+     1. Go to colab.research.google.com and upload the notebook.
+     2. Use the file (folder) panel on the left to upload sncf_tgv_regularity.csv.
+     3. Run the cells from the top.
+
+HOW THE NOTEBOOK WORKS
+  Every step is fully worked and explained — just read and run it. After each step
+  there is a small "Your turn" cell for you to practise, and it ends with an open
+  "Challenge". The steps get gradually harder; only the last one (groupby) is new.
+  Record your findings in Student_Workbook_Lab1.docx as you go.
+
+WHAT TO HAND IN
+  - Your completed notebook (File > Save first)
+  - Your Student Workbook with three findings and one recommendation
+
+DATA
+  Real French TGV punctuality records (SNCF Open Data, "Regularite mensuelle TGV").
+  Licence Ouverte / Open Licence (Etalab) — free to use, with attribution.
+  The file's column names are in French; the notebook renames them to English for you.
+
+Need help? Re-read the step's Insight box, then ask a teaching assistant.

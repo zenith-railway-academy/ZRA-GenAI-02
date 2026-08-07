@@ -1,0 +1,39 @@
+START HERE — Lab 3: Dashboard Project (Looker Studio)
+=====================================================
+
+WHAT YOU HAVE (this package)
+  Activity_Dossier_Lab3.pdf      <- read this first (your step-by-step build guide)
+  uk_station_usage_2024_25.csv   <- the dataset you upload (already provided)
+  reference_dashboard.png        <- a picture of the finished dashboard you're aiming for
+  Student_Insight_Note_Lab3.docx <- your WRITTEN insight note (second deliverable)
+
+WHAT YOU NEED
+  - A web browser and a FREE Google account (to sign in to Looker Studio).
+  - The CSV file above.
+
+HOW TO START (about 1 hour)
+  1. Go to  lookerstudio.google.com  and sign in with your Google account.
+  2. Create > Report (blank).
+  3. Add data > "File Upload" connector > upload uk_station_usage_2024_25.csv.
+  4. Follow the Activity Dossier step by step to build:
+       - 3 KPI scorecards (total entries+exits, number of stations, interchanges)
+       - a bar chart by region
+       - a bar chart by operator (top 10)
+       - a top-10 stations table
+       - a title, all on one page.
+  5. File > Download report as PDF (or Share > copy link).
+
+THEN WRITE YOUR INSIGHT NOTE
+  Open Student_Insight_Note_Lab3.docx and write, in your own words, the 3-4 things
+  your dashboard reveals and one recommendation for the operator.
+  Do NOT just paste screenshots or numbers - explain what they MEAN.
+
+WHAT TO HAND IN
+  - Your dashboard (PDF or share link)
+  - Your completed insight note
+
+DATA
+  Real UK rail station usage 2024-25 (Office of Rail and Road, Table 1410).
+  Open Government Licence v3.0 - free to use, with attribution.
+
+Need help? Re-read the step in the dossier, then ask a teaching assistant.

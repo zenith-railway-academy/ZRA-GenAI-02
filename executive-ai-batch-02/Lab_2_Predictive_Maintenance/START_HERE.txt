@@ -1,0 +1,42 @@
+START HERE — Lab 2: Predictive Maintenance
+==========================================
+
+WHAT YOU HAVE (this package)
+  Activity_Dossier_Lab2.pdf    <- read this first (your guide to the activity)
+  Student_Report_Lab2.docx     <- your WRITTEN REPORT (the main deliverable)
+  notebook/lab2_predictive_maintenance.ipynb  <- the notebook you work in
+  notebook/metropt3_teaching.csv              <- the real dataset (already provided)
+
+HOW TO START
+  Option A — JupyterLab (on your lab VM):
+     1. Open a terminal in the "notebook" folder and run:  jupyter lab
+     2. Open  lab2_predictive_maintenance.ipynb
+     3. Run the cells from the top, one at a time (Shift+Enter).
+        (Training the model takes only a few seconds.)
+
+  Option B — Google Colab:
+     1. Upload the notebook to colab.research.google.com.
+     2. Use the Files panel on the left to upload metropt3_teaching.csv.
+     3. Run the cells from the top.
+
+HOW THE NOTEBOOK WORKS
+  Each step is worked and explained, then you DO a "Your turn" cell yourself
+  (eight in total). It ends with a two-part "Challenge". This is your first ML
+  lab, so every new idea is introduced gently, one at a time.
+
+THE MAIN DELIVERABLE IS A WRITTEN REPORT
+  After the notebook, fill in Student_Report_Lab2.docx IN YOUR OWN WORDS.
+  Do NOT paste code or notebook outputs into the report — quote a number as
+  evidence if it helps, but explain what it MEANS for the maintenance team.
+  A report that is just pasted outputs scores no marks.
+
+WHAT TO HAND IN
+  - Your completed notebook (File > Save first)
+  - Your written report (Student_Report_Lab2.docx)
+
+DATA
+  Real MetroPT-3 metro-train compressor sensors (Metro do Porto, 2020).
+  Source: UCI ML Repository, dataset 791. Licence: CC BY 4.0 (free, with attribution).
+  The real air-leak failures of 18 Apr and 29-30 May 2020 are kept in the file.
+
+Need help? Re-read the step's Insight box, then ask a teaching assistant.
