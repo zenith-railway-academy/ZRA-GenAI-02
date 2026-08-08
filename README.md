@@ -116,14 +116,30 @@ Google Colab also works, but you'll have to re-upload the dataset every session,
 
 | Problem | What's going on |
 |---|---|
-| VM won't start | Give it a couple of minutes to spin up. Still nothing — contact your teaching assistant. |
+| VM won't start | Give it a couple of minutes to spin up. Still nothing — raise a ticket (see below). |
 | My work vanished from the VM | The VM reset. Always download your notebook and screenshots before finishing a session. |
 | `FileNotFoundError` on my laptop | The CSV isn't next to the notebook. Unzip the package properly. Doesn't happen on the VM. |
 | `ModuleNotFoundError` on my laptop | You're not on the VM. Either use the VM, or `pip install` the missing library. |
 | A cell errors for no reason | Restart and run from the top: **Kernel → Restart & Run All**. |
 | Which workbook is mine? | One per lab — check the lab number in the filename. |
 
-Still stuck? Re-read the **Insight box** for that step in the Activity Dossier, then ask a teaching assistant.
+---
+
+## 🎫 Getting help — raise a ticket
+
+If you're still stuck after re-reading the **Insight box** for that step in the Activity Dossier:
+
+> **Open a support ticket on [zralabs.com](https://zralabs.com).**
+
+Every request for help — lab content, a notebook error, a VM that won't start, login trouble — goes through a ticket. Please don't use email or the Teachable classroom for this; tickets get seen and tracked, messages elsewhere don't.
+
+**Your ticket must include:**
+
+1. **Which lab** you're on, and **which step** (e.g. "Lab 2, Step 5 — Your turn cell")
+2. **A clear description** of what you did, what you expected, and what actually happened
+3. **Screenshots** — the full screen including the error message, not a crop of just the red text
+
+Tickets without a description and screenshots will be sent back for more information, which just slows you down.
 
 ---
 
@@ -143,4 +159,4 @@ These are teaching materials of Zenith Railway Academy. You're welcome to keep a
 
 ---
 
-*Questions about the course go through your Teachable classroom. Questions about a lab go to your teaching assistant. Problems logging in to the lab VM go to your teaching assistant too.*
+*Need help with anything — a lab, a notebook, the VM, your login? Open a ticket on [zralabs.com](https://zralabs.com) with a description and screenshots.*
