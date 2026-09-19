@@ -1,0 +1,58 @@
+START HERE — Lab 4: Forecasting
+===============================
+
+WHAT YOU HAVE (this package)
+  Activity_Dossier_Lab4.pdf    <- read this first (your guide to the activity)
+  Student_Report_Lab4.docx     <- your WRITTEN REPORT (the main deliverable)
+  README_Lab4_data.md          <- where the data comes from, and its terms of use
+  START_HERE.txt               <- this page
+  notebook/lab4_forecasting.ipynb      <- the notebook you work in
+  notebook/lirr_daily_ridership.csv    <- the real dataset (already provided)
+
+HOW TO START
+  Option A — JupyterLab (on your lab VM):
+     1. Open a terminal in the "notebook" folder and run:  jupyter lab
+     2. Open  lab4_forecasting.ipynb
+     3. Run the cells from the top, one at a time (Shift+Enter).
+        (Nothing here takes more than a second to run.)
+
+  Option B — Google Colab:
+     1. Upload the notebook to colab.research.google.com.
+     2. Use the Files panel on the left to upload lirr_daily_ridership.csv.
+     3. Run the cells from the top.
+
+THE ONE RULE THAT SHAPES THIS LAB
+  You are forecasting SEVEN DAYS AHEAD, because that is when the train and crew
+  plan gets published. So when you forecast next Tuesday, you do not know
+  Monday's ridership -- you know nothing from the last seven days.
+  Every feature you build must be at least 7 days old.
+  If a change makes your score suddenly much better, check that rule first.
+  That is the classic forecasting mistake, and it is called leakage.
+  It applies to more than model features: it also binds the baselines, and any
+  threshold or safety margin you tune. The Challenge has a trap about exactly
+  this -- see whether you spot it before the notebook tells you.
+
+HOW THE NOTEBOOK WORKS
+  Each step is worked and explained, then you DO a "Your turn" cell yourself
+  (nine in total). It ends with a two-part "Challenge". Only one new idea is
+  introduced at a time.
+
+THE MAIN DELIVERABLE IS A WRITTEN REPORT
+  After the notebook, fill in Student_Report_Lab4.docx IN YOUR OWN WORDS.
+  Do NOT paste code or notebook outputs into the report -- quote a number as
+  evidence if it helps, but explain what it MEANS for the team planning next
+  week's trains. A report that is just pasted outputs scores no marks.
+
+WHAT TO HAND IN
+  - Your completed notebook (File > Save first)
+  - Your written report (Student_Report_Lab4.docx)
+
+DATA
+  Real daily ridership published by the MTA (New York), Jan 2023 - Aug 2026.
+  Source: data.ny.gov, "MTA Daily Ridership and Traffic: Beginning 2020"
+  (dataset id sayj-mze2). Terms: OPEN-NY Terms of Use -- free to download and
+  reuse, no attribution required (we credit the MTA anyway).
+  Four days where the LIRR feed reported zero riders are left in the file
+  on purpose. Finding and repairing them is Step 2.
+
+Need help? Re-read the step's Insight box, then ask a teaching assistant.
